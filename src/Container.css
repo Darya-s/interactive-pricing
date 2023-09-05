@@ -1,0 +1,24 @@
+#container{
+    background-color: yellow;
+    height:300px;
+    width:300px;
+    margin:auto;
+    display: grid;
+   
+    
+}
+
+#container > div {
+    justify-content: center;
+    
+
+    text-align: center;
+}
+
+#slider{
+   color:var(--strong-cyan);
+   width:80%;
+   justify-content: center;
+}
+  
+  
