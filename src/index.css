@@ -1,31 +1,30 @@
 :root {
-    --soft-cyan: hsl(174, 77%, 80%);/*Full Slider Bar */
-    --strong-cyan: hsl(174, 86%, 45%); /*Slider Backround*/
-    --light-grayish-red: hsl(14, 92%, 95%);/*Discount Background*/
-    --light-red: hsl(15, 100%, 70%);/*Discount Text*/
-    --pale-blue: hsl(226, 100%, 87%);/*CTA Text*/
-  
-    --white: hsl(0, 0%, 100%);/*Pricing Component Background*/
-    --very-pale-blue: hsl(230, 100%, 99%);/*Main Background*/
-    --light-grayish-blue: hsl(224, 65%, 95%);/*Empty Slider Bar*/
-    --light-grayish-blue-toggl: hsl(223, 50%, 87%);/*Toggle Background*/
-    --grayish-blue: hsl(225, 20%, 60%);/*Text*/
-    --dark-desaturated-blue: hsl(227, 35%, 25%);/*Text & CTA Background*/
-  
-  
-    --font-manrope: "Manrope";
-   
-    --font-weight-600: 600;
-    --font-weight-800: 800;
-    --font-size-15:15px;
-  }
+  /* Colors*/
+  --soft-cyan: hsl(174, 77%, 80%); /*Full Slider Bar */
+  --strong-cyan: hsl(174, 86%, 45%); /*Slider Backround*/
+  --light-grayish-red: hsl(14, 92%, 95%); /*Discount Background*/
+  --light-red: hsl(15, 100%, 70%); /*Discount Text*/
+  --pale-blue: hsl(226, 100%, 87%); /*CTA Text*/
 
-body {
-margin:0;
-font-family: var(--font-manrope),sans-serif;
-font-size:var(--font-size-15);
-background-color: var(--very-pale-blue);
-line-height: 1.5;
-font-weight: 400;
+  --white: hsl(0, 0%, 100%); /*Pricing Component Background*/
+  --very-pale-blue: hsl(230, 100%, 99%); /*Main Background*/
+  --light-grayish-blue: hsl(224, 65%, 95%); /*Empty Slider Bar*/
+  --light-grayish-blue-toggl: hsl(223, 50%, 87%); /*Toggle Background*/
+  --grayish-blue: hsl(225, 20%, 60%); /*Text*/
+  --dark-desaturated-blue: hsl(227, 35%, 25%); /*Text & CTA Background*/
+
+  /*Typography*/
+  --font-manrope: "Manrope";
+  --font-weight-600: 600;
+  --font-weight-800: 800;
+  --font-size-15: 15px;
 }
 
+body {
+  margin: 0;
+  font-family: var(--font-manrope), sans-serif;
+  font-size: var(--font-size-15);
+  background-color: var(--very-pale-blue);
+  line-height: 1.5;
+  font-weight: 400;
+}
