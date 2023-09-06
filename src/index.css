@@ -2,5 +2,6 @@ body {
 margin:0;
 font-family: var(--font-manrope);
 font-size:var(--font-size-15);
+background-color: var(--very-pale-blue);
 }
 
