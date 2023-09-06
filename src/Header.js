@@ -6,7 +6,7 @@ export default function Header(){
     <div id="header">
         
         <div id="text-container">
-        <img alt="circles" src={circles}/>
+       
 <p id="title" >Simple, traffic-based pricing</p>
 <p id="sub-title" >Sign-up for our 30-day trial. No credit card required.</p>
 </div>

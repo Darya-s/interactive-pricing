@@ -1,3 +1,11 @@
+@media (min-width: 375px) {
+
+  #container {
+  margin-top: 30%;
+  }
+  
+  }
+
 #container{
     background-color: var(--white);
     height:300px;
@@ -16,9 +24,14 @@
     text-align: center;
 }
 
+#slider-container{
+  
+  margin: auto;
+
+}
 #slider{
    color:var(--strong-cyan);
-   width:80%;
+   
    justify-content: center;
 }
   

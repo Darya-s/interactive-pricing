@@ -3,11 +3,12 @@
 @media (min-width: 375px) {
 
 #header {
- 
+margin-top: 15%;
 }
 
 }
 #header {
+  
   
   color: var(--dark-desaturated-blue);
 
@@ -23,9 +24,14 @@
 }
 
 #text-container{
+  background-image: url('./images/pattern-circles.svg'); /* <img alt="circles" src={circles}/>*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
     display: grid;
     justify-items: center;
     line-height:1.5em;
+    height: 100px;
 }
 
 #title {
