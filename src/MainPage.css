@@ -3,5 +3,16 @@
   height: 50vh;
   display: grid;
   gap:50px;
-  
+  background-repeat: no-repeat;
+
 }
+
+
+@media (min-width: 600px) {
+
+  #main {
+  
+    width:100%; 
+
+  
+  }}

@@ -1,38 +1,105 @@
-@media (min-width: 375px) {
 
-  #container {
-  margin-top: 30%;
-  }
-  
+
+  @media (min-width: 600px)  {
+
+    #container {
+      display: flex;
+     
+        width:50vh;
+    padding: 0;}
+    
+
+      .bottom-wrapper{
+       
+        display: flex;
+        gap:20%;
+        justify-content: center;
+        align-items: center;
+        border-top:1px solid var(--light-grayish-blue);
+      }
+    
+    }
+
+    
+  @media   (min-width: 345px) and (max-width: 599px) {
+
+    #container {
+     width: 80%;}
   }
 
 #container{
-    background-color: var(--white);
-    height:300px;
-    width:85%;
+ 
+  background-color: var(--very-pale-blue);
+    height:auto;
+    margin-top: 30%;
+   
     margin:auto;
     display: grid;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 10px 12px 20px 0px var(--light-grayish-blue);
   border-radius: 1rem;
     
 }
 
 #container > div {
-    justify-content: center;
+    
     
 
     text-align: center;
 }
 
 #slider-container{
-  
+
   margin: auto;
+  width:85%;
 
 }
-#slider{
-   color:var(--strong-cyan);
-   
-   justify-content: center;
+.Switch.Mui-checked{
+  color:black;
 }
+
+#slider {
+  color:var(--strong-cyan);
+}
+
+.MuiSlider-thumb {
+  background-image: url("./images/icon-slider.svg");
+  background-repeat: no-repeat;
+  width:100%;
+  object-fit: cover;
   
+}
+
+#slider > img{
   
+} 
+
+.switch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#discount{
+  background-color: var(--light-grayish-red);
+  border-radius: 10px;
+width:30px;
+  padding: 1px;
+  font-size: x-small;
+}
+
+.btn{
+  background-color:var(--dark-desaturated-blue) ;
+  color:var(--very-pale-blue);
+  width:200px;
+
+border:none;
+  border-radius:20px;
+  padding:15px;
+
+
+}
+
+.btn:hover{
+  background-color:var(--grayish-blue) ;
+ 
+}
